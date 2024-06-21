@@ -1,6 +1,6 @@
 # ScriptsLinux-Fedora 40 Workstation
 
-## Script Plymouth
+### Script Plymouth
 
 1. Adicionar tema no caminho -> /usr/share/plymouth/themes
 2. sudo dnf install plymouth-plugin-script (Caso não tenha plymouth-plugin)
@@ -8,11 +8,11 @@
 
 - Obs: Comando para saber tema atual: cat /etc/plymouth/plymouthd.conf
 
-## Atualizar GRUB 
+### Atualizar GRUB 
 
 - sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 
-## Colocar GRUB em 1920x1080
+### Colocar GRUB em 1920x1080
 
 1. sudo nano /etc/default/grub
 2. Adicionar linha: GRUB_GFXPAYLOAD_LINUX=1920x1080
