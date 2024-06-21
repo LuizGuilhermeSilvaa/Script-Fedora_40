@@ -8,13 +8,19 @@
 
 - Obs: Comando para saber tema atual: cat /etc/plymouth/plymouthd.conf
 
-# Atualizar GRUB 
+## Atualizar GRUB 
 
-- sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+- <sub>sudo grub2-mkconfig -o /boot/grub2/grub.cfg</sub>
 
-# Colocar GRUB em 1920x1080
+## Colocar GRUB em 1920x1080
 
 - sudo nano /etc/default/grub
 - Adicionar linha: GRUB_GFXPAYLOAD_LINUX=1920x1080
 - Salvar alterações
 - Atualizar GRUB: sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+
+
+# Fontes
+
+- https://diolinux.com.br/sistemas-operacionais/fedora/como-atualizar-o-grub-no-fedora.html
+- https://askubuntu.com/questions/503766/change-plymouth-screen-resolution
