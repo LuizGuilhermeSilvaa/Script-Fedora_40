@@ -12,16 +12,7 @@
 
 - sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 
-### Colocar GRUB em 1920x1080
-
-1. sudo nano /etc/default/grub
-2. Adicionar linha: GRUB_GFXPAYLOAD_LINUX=1920x1080
-3. Salvar alterações.
-4. Atualizar GRUB: ***sudo grub2-mkconfig -o /boot/grub2/grub.cfg***
-
-
 # Fontes
 
 - [https://diolinux.com.br/sistemas-operacionais/fedora/como-atualizar-o-grub-no-fedora.html]
-- [https://askubuntu.com/questions/503766/change-plymouth-screen-resolution]
 - Temas Plymouth: [https://www.gnome-look.org/browse?cat=108&tag=boot]
