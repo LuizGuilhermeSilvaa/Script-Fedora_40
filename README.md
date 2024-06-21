@@ -24,3 +24,4 @@
 
 - [https://diolinux.com.br/sistemas-operacionais/fedora/como-atualizar-o-grub-no-fedora.html]
 - [https://askubuntu.com/questions/503766/change-plymouth-screen-resolution]
+- Temas Plymouth: [https://www.gnome-look.org/browse?cat=108&tag=boot]
