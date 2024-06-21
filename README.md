@@ -17,7 +17,7 @@
 1. sudo nano /etc/default/grub
 2. Adicionar linha: GRUB_GFXPAYLOAD_LINUX=1920x1080
 3. Salvar alterações.
-4. Atualizar GRUB: sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+4. Atualizar GRUB: ***sudo grub2-mkconfig -o /boot/grub2/grub.cfg***
 
 
 # Fontes
