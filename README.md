@@ -2,7 +2,7 @@
 
 ### Script Plymouth
 
-1. Adicionar tema no caminho -> /usr/share/plymouth/themes
+1. Adicionar tema no caminho -> ***/usr/share/plymouth/themes***
 2. sudo dnf install plymouth-plugin-script (Caso não tenha plymouth-plugin)
 3. sudo plymouth-set-default-theme -R {NOME DO TEMA}
 
