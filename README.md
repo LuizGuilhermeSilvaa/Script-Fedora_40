@@ -12,6 +12,11 @@
 
 - sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 
+### SCRIPTS
+
+- Abrir Arduino-IDE -> arduino
+- Abrir VsCode -> code
+  
 # Fontes
 
 - [https://diolinux.com.br/sistemas-operacionais/fedora/como-atualizar-o-grub-no-fedora.html]
